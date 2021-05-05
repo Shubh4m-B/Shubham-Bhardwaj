@@ -1,0 +1,38 @@
+#me {
+  height: 45vh;
+  border-radius: 50%;
+}
+
+.tools {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.cols {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.links {
+  width: 400px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.media-links {
+  height: 5vh;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
