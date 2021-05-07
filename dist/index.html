@@ -47,7 +47,7 @@
             <p class="lead">
                 <a class="btn btn-outline-light btn-lg"
                     href="https://drive.google.com/file/d/1bRSaLxqub-Gx4YbczVDnu1MB-KCb7HnD/view?usp=sharing"
-                    role="button">View Resume</a>
+                    role="button" target="_blank" rel="noopener noreferrer">View Resume</a>
             </p>
         </div>
     </div>
@@ -94,7 +94,7 @@
             <div class="container">
                 <h1 class="display-4">Tools and Technologies</h1>
                 <div class="tools">
-                    <div class="box">
+                    <div class="box" id="html">
                         <div class="box-img">
                             <img src="Images/html.png" alt="HTML logo">
                         </div>
@@ -102,7 +102,7 @@
                             <h5 class="label">HTML</h5>
                         </div>
                     </div>
-                    <div class="box">
+                    <div class="box" id="css">
                         <div class="box-img">
                             <img src="Images/css-3.png" alt="CSS logo">
                         </div>
@@ -110,15 +110,15 @@
                             <h5 class="label">CSS</h5>
                         </div>
                     </div>
-                    <div class="box">
+                    <div class="box" id="js">
                         <div class="box-img">
-                            <img src="Images/JavaScript.svg" alt="JS Logo" id="js">
+                            <img src="Images/JavaScript.svg" alt="JS Logo" id="js-logo">
                         </div>
                         <div class="box-label">
                             <h5 class="label">JavaScript</h5>
                         </div>
                     </div>
-                    <div class="box">
+                    <div class="box" id="react">
                         <div class="box-img">
                             <img src="Images/ReactJs.svg" alt="React Logo">
                         </div>
@@ -126,7 +126,7 @@
                             <h5 class="label">React JS</h5>
                         </div>
                     </div>
-                    <div class="box">
+                    <div class="box" id="node">
                         <div class="box-img">
                             <img src="Images/NodeJs.svg" alt="Node Logo">
                         </div>
@@ -134,7 +134,7 @@
                             <h5 class="label">Node JS</h5>
                         </div>
                     </div>
-                    <div class="box">
+                    <div class="box" id="mongo">
                         <div class="box-img">
                             <img src="Images/MongoDB.svg" alt="MongoDB Logo">
                         </div>
@@ -142,15 +142,15 @@
                             <h5 class="label">MongoDB</h5>
                         </div>
                     </div>
-                    <div class="box">
+                    <div class="box" id="git">
                         <div class="box-img">
-                            <img src="Images/Git.svg" alt="Git Logo" id="git">
+                            <img src="Images/Git.svg" alt="Git Logo" id="git-logo">
                         </div>
                         <div class="box-label">
                             <h5 class="label">Git & GitHub</h5>
                         </div>
                     </div>
-                    <div class="box">
+                    <div class="box" id="ai">
                         <div class="box-img">
                             <img src="Images/adobe-illustrator.png" alt="AI Logo">
                         </div>
@@ -158,7 +158,7 @@
                             <h5 class="label">Adobe Illustrator</h5>
                         </div>
                     </div>
-                    <div class="box">
+                    <div class="box" id="ps">
                         <div class="box-img">
                             <img src="Images/adobe-photoshop-logo.png" alt="PS Logo">
                         </div>
@@ -166,9 +166,9 @@
                             <h5 class="label">Adobe Photoshop</h5>
                         </div>
                     </div>
-                    <div class="box">
+                    <div class="box" id="figma">
                         <div class="box-img">
-                            <img src="Images/Figma.svg" alt="Figma Logo" id="figma">
+                            <img src="Images/Figma.svg" alt="Figma Logo" id="figma-logo">
                         </div>
                         <div class="box-label">
                             <h5 class="label">Figma</h5>
@@ -193,7 +193,13 @@
                         <p class="card-text">An application built using React for creating
                             color palettes for websites and graphic
                             desinging projects.</p>
-                        <a href="https://shubh4m-b.github.io/color-picker/" class="btn btn-primary">View</a>
+                        <div class="buttons">
+                            <a href="https://shubh4m-b.github.io/color-picker/" class="btn btn-outline-red"
+                                target="_blank" rel="noopener noreferrer">View</a>
+                            <a href="https://github.com/Shubh4m-B/color-picker" class="btn btn-outline-dark"
+                                target="_blank" rel="noopener noreferrer">
+                                Code</a>
+                        </div>
                     </div>
                 </div>
                 <div class="card" style="width: 18rem;">
@@ -204,7 +210,12 @@
                             based application. Users can create dierent
                             note groups which can either be for personal
                             use or for a group of users.</p>
-                        <a href="https://vast-tor-28956.herokuapp.com/" class="btn btn-primary">View</a>
+                        <div class="buttons">
+                            <a href="https://vast-tor-28956.herokuapp.com/" class="btn btn-outline-red" target="_blank"
+                                rel="noopener noreferrer">View</a>
+                            <a href="https://github.com/Shubh4m-B/notify-v1" class="btn btn-outline-dark"
+                                target="_blank" rel="noopener noreferrer">Code</a>
+                        </div>
                     </div>
                 </div>
                 <div class="card" style="width: 18rem;">
@@ -215,7 +226,12 @@
                             reviewing campgrounds, built using NodeJS,
                             Express, EJS and MongoDB, supports full
                             CRUD functionality.</p>
-                        <a href="https://glacial-citadel-19694.herokuapp.com/" class="btn btn-primary">View</a>
+                        <div class="buttons">
+                            <a href="https://glacial-citadel-19694.herokuapp.com/" class="btn btn-outline-red"
+                                target="_blank" rel="noopener noreferrer">View</a>
+                            <a href="https://github.com/Shubh4m-B/YelpCamp-v11" class="btn btn-outline-dark"
+                                target="_blank" rel="noopener noreferrer">Code</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -230,17 +246,18 @@
             </h1>
             <div class="links">
                 <div class="media-circle" id="linkedin">
-                    <a href="http://www.linkedin.com/in/shubham-bhardwaj-2000">
+                    <a href="http://www.linkedin.com/in/shubham-bhardwaj-2000" target="_blank"
+                        rel="noopener noreferrer">
                         <img src="Images/linkedin.png" alt="linkedin" class="media-links">
                     </a>
                 </div>
                 <div class="media-circle" id="github">
-                    <a href="https://github.com/Shubh4m-B">
+                    <a href="https://github.com/Shubh4m-B" target="_blank" rel="noopener noreferrer">
                         <img src="Images/github.png" alt="github" class="media-links">
                     </a>
                 </div>
                 <div class="media-circle" id="behance">
-                    <a href="https://www.behance.net/shubhambhardwaj1">
+                    <a href="https://www.behance.net/shubhambhardwaj1" target="_blank" rel="noopener noreferrer">
                         <img src="Images/behance-logo.png" alt="behance" class="media-links">
                     </a>
                 </div>
